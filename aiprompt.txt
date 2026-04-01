@@ -1,0 +1,40 @@
+انسخ النص أدناه وأرسله لمن يستخدم PyCharm)
+
+"I have a Django backend project called 'plProject' cloned from GitHub. I am using PyCharm. The project structure has a root folder containing .venv, requirements.txt, and the Django project folders (core, accounts, plProject).
+
+Task: Help me set up the development environment exactly as the lead developer intended.
+
+Detailed Requirements:
+
+Interpreter: Guide me to set the Python Interpreter to the existing .venv folder.
+
+Dependencies: How to trigger PyCharm to install everything from requirements.txt.
+
+Environment Variables: I need to create a .env file in the same directory as manage.py. What values should I put for DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, and SECRET_KEY?
+
+PostgreSQL Setup: I have a schema.sql file. Guide me to import it into my local PostgreSQL database using pgAdmin 4 or the Terminal.
+
+Django Sync: Explain the exact command to run python manage.py migrate --fake-initial so Django recognizes the imported tables without errors.
+
+Final Check: How to create a Superuser and run the server to ensure the connection is successful."
+
+🔵 الجزء الثاني: Super Prompt لمستخدمي VS Code
+(انسخ النص أدناه وأرسله لمن يستخدم VS Code)
+
+"I am setting up a Django project named 'plProject' on VS Code. The backend uses PostgreSQL and requires a .env file for configuration.
+
+Task: Provide a step-by-step terminal-based guide to run this project successfully.
+
+Step-by-Step Instructions Needed:
+
+Virtual Env: How to activate the .venv folder via Terminal (Windows/Mac).
+
+Packages: Command to install all libraries from requirements.txt.
+
+Secrets: Where exactly to create the .env file and how to format the database credentials so python-dotenv can read them.
+
+Database Import: Commands to create a database in PostgreSQL and import the provided schema.sql file.
+
+Migrations: How to use the --fake-initial flag with the migrate command and why it's necessary for this specific project.
+
+Execution: Commands to verify the setup, create an admin account, and start the development server."
